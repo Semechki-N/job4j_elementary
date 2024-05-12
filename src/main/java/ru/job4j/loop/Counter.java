@@ -9,15 +9,20 @@ public class Counter {
             return start + finish;
         }
         for (int i = start; i <= finish; i++) {
-                sum += i;
-            }
-            return sum;
+            sum += i;
+        }
+        return sum;
     }
 
-    public static void main(String[] args) {
-        System.out.println(sum(0, 10));
-        System.out.println(sum(3, 8));
-        System.out.println(sum(1, 1));
-        System.out.println(sum(10, 5));
+    public static int sumByEven(int start, int finish) {
+        int sum = 0;
+        for (int i = start; i <= finish; i++) {
+            if (start >= 0) {
+                if (i % 2 == 0) {
+                    sum = sum + i;
+                }
+            }
+        }
+        return sum;
     }
 }
