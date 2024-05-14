@@ -15,7 +15,6 @@ class TriangleTest {
 
     @Test
     void testTwoSidesEqualToSum() {
-        // Arrange
         double ab = 3.0;
         double ac = 4.0;
         double bc = 7.0;
