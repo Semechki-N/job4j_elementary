@@ -1,7 +1,6 @@
 package ru.job4j.calculator;
 
 public class Fit {
-
     private static final short BASE_HEIGHT_MAN = 100;
     private static final short BASE_HEIGHT_WOMAN = 110;
     private static final double WEIGHT_COEFFICIENT = 1.15;
