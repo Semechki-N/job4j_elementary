@@ -19,11 +19,7 @@ class TriangleTest {
         double ab = 3.0;
         double ac = 4.0;
         double bc = 7.0;
-
-        // Act
         boolean result = Triangle.exist(ab, ac, bc);
-
-        // Assert
         assertThat(result).isFalse();
     }
 }
